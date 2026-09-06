@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Startpage Ad Blocker (iframe killer)",
+  "version": "3.0",
+  "description": "Hides the iframe containers that show sponsored ads on Startpage",
+  "permissions": [],
+  "host_permissions": [
+    "https://www.startpage.com/*",
+    "https://startpage.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.startpage.com/*", "https://startpage.com/*"],
+      "css": ["style.css"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}

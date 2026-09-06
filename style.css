@@ -1,0 +1,14 @@
+/* Hide the main ad wrappers */
+#adBlock,
+#gcsa-top,
+#gcsa-bottom,
+div[data-ad-container="1"] {
+  display: none !important;
+}
+
+/* Hide the ad iframes (the actual source of the ads) */
+iframe[id^="master-"],
+iframe[id^="slave-"],
+iframe[src*="/afs/ads/"] {
+  display: none !important;
+}
