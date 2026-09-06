@@ -1,26 +1,46 @@
-# 🛡️ Startpage Cleaner
+# Startpage Ad Blocker
 
-**Startpage Cleaner** is a lightweight, open‑source browser extension for **Brave** (and Chromium‑based browsers) that removes sponsored ads, clutter, and tracking iframes from Startpage search results – giving you a cleaner, faster, and more private search experience.
-
-![Startpage Cleaner Demo](https://via.placeholder.com/800x400/171b25/a7b1fc?text=Startpage+Cleaner+Demo)  
-*(Replace with an actual screenshot or GIF)*
+A lightweight browser extension that removes sponsored ads and clutter from Startpage search results.
 
 ---
 
-## ✨ Features
+## What it does
 
-- 🚫 **Blocks all sponsored results** – removes `#adBlock`, `#gcsa-top`, and all ad‑iframes.
-- 🔄 **Dynamic detection** – uses a MutationObserver to catch ads that load after the page renders.
-- 🎨 **Minimal & dark‑mode friendly** – blends seamlessly with Startpage’s dark theme.
-- ⚙️ **Optional settings page** – toggle ad‑blocking on/off (uses `chrome.storage`).
-- 🧩 **Extensible** – easy to update selectors if Startpage changes their layout.
+- Hides the **"Sponsored"** ad blocks at the top of Startpage.
+- Removes ad containers and iframes that load tracking scripts.
+- Works with dynamically loaded content (ads that appear after the page loads).
+- Keeps your search results clean and distraction‑free.
 
 ---
 
-## 📦 Installation
+## Installation
 
-### From source (developer mode)
+### For Brave / Chrome (Developer Mode)
 
-1. **Download or clone** this repository:
-   ```bash
-   git clone https://github.com/your-username/startpage-cleaner.git
+1. **Download the extension**  
+   Click the green **Code** button above and select **Download ZIP**, then extract the folder.
+
+2. **Open the extensions page**  
+   - **Brave:** `brave://extensions/`  
+   - **Chrome:** `chrome://extensions/`
+
+3. **Enable Developer mode**  
+   Toggle the switch in the top‑right corner.
+
+4. **Load the extension**  
+   Click **Load unpacked**, select the folder where you extracted the extension, and click **Select Folder**.
+
+5. **Done!**  
+   The extension will appear in your list. Make sure it is **enabled** (toggle is ON).
+
+---
+
+## How to test it
+
+1. Go to [Startpage.com](https://www.startpage.com/).
+2. Search for anything (e.g., `best laptop`).
+3. The sponsored results at the top should be completely hidden.
+
+---
+
+## File structure
