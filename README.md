@@ -32,15 +32,3 @@ A lightweight browser extension that removes sponsored ads and clutter from Star
 
 5. **Done!**  
    The extension will appear in your list. Make sure it is **enabled** (toggle is ON).
-
----
-
-## How to test it
-
-1. Go to [Startpage.com](https://www.startpage.com/).
-2. Search for anything (e.g., `best laptop`).
-3. The sponsored results at the top should be completely hidden.
-
----
-
-## File structure
